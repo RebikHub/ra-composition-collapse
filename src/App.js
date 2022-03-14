@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import Collapse from "./components/Collapse";
 
 export default function App() {
-  return (
-    <div className="App">
+  const [state, setState] = useState(true)
+  function handleExpandedChange(isExpanded) {
+    setState({ isExpanded });
+  }
 
-    </div>
+  return (
+    <Collapse
+      collapsedLabel='Развернуть'
+      expandedLabel='Свернуть'
+      isExpanded={ state.isExpanded }
+      onExpandedChange={ handleExpandedChange }
+    />
   );
+}
+
+Collapse.defaultProps = {
+  collapsedLabel: 'Развернуть',
+  expandedLabel: 'Свернуть'
 }

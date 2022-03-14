@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8g4ro22g1ccy2lve/branch/master?svg=true)](https://ci.appveyor.com/project/RebikHub/ra-composition-collapse/branch/master)
 
 [Collapse](https://rebikhub.github.io/ra-composition-collapse/)
 
