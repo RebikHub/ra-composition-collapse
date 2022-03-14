@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ra-composition-collapse/static/css/main.fdf98222.css",
+    "main.js": "/ra-composition-collapse/static/js/main.b5bd1faa.js",
+    "index.html": "/ra-composition-collapse/index.html",
+    "main.fdf98222.css.map": "/ra-composition-collapse/static/css/main.fdf98222.css.map",
+    "main.b5bd1faa.js.map": "/ra-composition-collapse/static/js/main.b5bd1faa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdf98222.css",
+    "static/js/main.b5bd1faa.js"
+  ]
+}
